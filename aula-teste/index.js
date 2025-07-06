@@ -1,5 +1,5 @@
 //Classificador de Héroi usando as estruturas de decisão IF/ELSE IF
-/*
+
 let nomeHeroi = "Capitão América";
 let quantidadeXp = 10000;
 
@@ -21,14 +21,5 @@ if (quantidadeXp < 1000) {
   quantidadeXp >= 10001;
   console.log(`O, ${nomeHeroi} está no nível Radiante`);
 }
-*/
 
-//Classificador de Héroi usando a estruturas de repetição FOR, WHILE e DO WHILE
 
-let nomeHeroi = "Capitão América";
-let quantidadeXp = 0;
-
-for (let i = 0; i < 99; i++) {
-  quantidadeXp += 1;
-  console.log(quantidadeXp + `O, ${nomeHeroi} está no nível de Ferro`);
-}
